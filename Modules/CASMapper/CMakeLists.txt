@@ -1,0 +1,5 @@
+MITK_CREATE_MODULE(	CASMapper
+	DEPENDS MitkDataTypesExt MitkLegacyGL
+	WARNINGS_NO_ERRORS
+)
+

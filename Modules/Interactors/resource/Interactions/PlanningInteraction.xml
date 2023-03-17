@@ -1,0 +1,18 @@
+<statemachine>
+<state name="start" startstate="true" >
+
+	<transition event_class="MousePressEvent" event_variant="MouseClick" target="start">
+  	<condition name="mouseClick"/>
+  </transition>
+
+	<transition event_class="MouseMoveEvent" event_variant="StartCameraRotation" target="start">
+  	<condition name="startCameraRotation"/>
+  </transition>
+
+	<transition event_class="MouseReleaseEvent" event_variant="CameraRotationFinished" target="start">
+  	<condition name="cameraRotationFinished"/>
+  </transition>
+
+</state>
+
+</statemachine>

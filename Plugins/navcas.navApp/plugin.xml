@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+  <extension id="navcas.navApp" point="org.blueberry.osgi.applications">
+    <application>
+      <run class="QmitkAwesomeApplication"/>
+    </application>
+  </extension>
+
+  <extension point="org.blueberry.ui.perspectives">
+    <perspective id="navcas.navAppPerspective"
+      name="Navigated TMS"
+      class="QmitkAwesomePerspective"
+      icon="resources/TMS.xpm" />
+  </extension>
+
+</plugin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <extension point="org.blueberry.ui.views">
+  
+    <view id="navcas.views.systemsetup"
+          name="1- SystemSetup"
+          class="SystemSetupView"
+          icon="resources/systemSetup.png" />
+		<description>Select the markers for registration, and the desired type of navigation.</description>
+
+    <view id="navcas.views.navigation"
+          name="5- Navigation"
+          class="NavigationView"
+          icon="resources/navigation.png" />
+		<description>Navigation of registered cases.</description>
+
+    <view id="navcas.views.registration"
+          name="4- Registration"
+          class="NavRegView"
+          icon="resources/registration.png" />
+		<description>Navigated registration of previously planned points, as well as surface refinement.</description>
+		
+  </extension>
+</plugin>

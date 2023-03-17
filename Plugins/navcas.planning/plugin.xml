@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <extension point="org.blueberry.ui.views">
+    <view id="navcas.views.planningview"
+          name="2- Planning"
+          class="PlanningView"
+          icon="resources/icon.png" />
+  </extension>
+</plugin>

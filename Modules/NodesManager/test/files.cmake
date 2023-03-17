@@ -1,0 +1,5 @@
+set(MODULE_TESTS
+  MarkersTest.cpp
+)
+SET(MODULE_CUSTOM_TESTS
+)

@@ -1,0 +1,5 @@
+set(Plugin-Name "NavigationPlugins")
+set(Plugin-Version "1.0")
+set(Plugin-Vendor "CAS")
+set(Plugin-ContactAddress "http://www...")
+set(Require-Plugin org.mitk.gui.qt.common)

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/navApp">
+        <file>TMS.xpm</file>
+        <file>MyLogo.png</file>
+    </qresource>
+</RCC>

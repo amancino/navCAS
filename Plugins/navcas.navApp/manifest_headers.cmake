@@ -1,0 +1,5 @@
+set(Plugin-Name "Navigated TMS")
+set(Plugin-Version "1.0")
+set(Plugin-Vendor "CAS")
+set(Plugin-ContactAddress "http://www.awesomeproject.my")
+set(Require-Plugin org.mitk.gui.qt.ext)
